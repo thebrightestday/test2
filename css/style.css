@@ -49,6 +49,7 @@ h2 {
     text-align: center;
     margin-right: 20px;
 }
+
 .button:hover {
 	box-shadow: 1px 2px 1px #bc8f9c;
 	transition: box-shadow 0.5s ease;
@@ -68,7 +69,10 @@ h2 {
  	transition: all .2s ease-in-out;*/
  }
 
-
+a{
+	text-decoration: none;
+	color:#ab6f80;
+}
 
 
 
@@ -141,6 +145,9 @@ h2 {
 }
 
 
+
+
+
 /*HERO*/
 .hero {
 	clear:both;
@@ -151,7 +158,7 @@ h2 {
 .hero h1 {
 	color: white;
 	font-weight: 500;
-	padding-top: 220px;
+	padding-top: 180px;
 	padding-left: 65px;
 	font-size: 36px;
 }
@@ -246,6 +253,7 @@ h2 {
 
 /*THIRD BLOCK*/
 .main-third {
+	clear:both;
 	min-height: 351px;
 	background-color: #ab6f80;
 	clear:both;
@@ -294,11 +302,20 @@ h2 {
 	max-width: 300px;
 }
 }
-.main-third-inner-left .fa{
+
+
+.main-third-inner-left .fa-envelope{
 	color: #F0F0F0;
 	font-size: 13em;
 }
 
+.main-third-inner-left .fa-star{
+	color: #F0F0F0;
+	font-size: 4em;
+}
+.main-third-inner-left .fa-star:hover{
+	color: #fdbd1f;
+}
 
 
 
@@ -358,7 +375,7 @@ h2 {
 .footer {
 	background-color: #f0f0f0;
 	color: #ab6f80;
-
+	clear: both;
 }
 
 .copyright p{
